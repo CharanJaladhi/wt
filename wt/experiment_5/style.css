@@ -1,0 +1,14 @@
+button:hover{
+    background-color: antiquewhite;
+    
+}
+.button1{
+   justify-content: center;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    margin: 30px auto;
+    align-items:center ;
+    gap:50px;
+}

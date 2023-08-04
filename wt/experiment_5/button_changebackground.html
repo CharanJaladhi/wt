@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    img{
+        border: aqua solid 10px;
+        width:200px;
+        height:200px;
+        border-radius: 5px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div >
+            <h1 style="font-size: 12px;font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif;">Image 1</h1>
+            <img src="img_1.jpg">
+        </div>
+        <div>
+            <h1 style="font-size: 12px;font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif;">Image 2</h1>
+            <img src="img_2.jpg"><br>
+        </div>
+    
+</div>
+<div class="button1">
+
+<button type="button" onclick="change_background()" >Submit</button>
+</div>
+<script>
+    function change_background(){
+        document.body.style.backgroundColor="red";
+    }
+</script>
+</body>
+</html>
