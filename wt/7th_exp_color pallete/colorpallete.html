@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Color Palette</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="background-blue" onclick="change_background('#ace5ee')"></div>
+        <div class="background-green" onclick="change_background('rgb(33, 235, 191)')"></div>
+        <div class="background-light-green" onclick="change_background('#93c572')"></div>
+        <div class="background-orange" onclick="change_background('#fe6f5e')"></div>
+        <div class="background-pink" onclick="change_background('#fb607f')"></div>
+        <div class="background-awesome" onclick="change_background('#ff2052')"></div>
+        <div class="background-yellow" onclick="change_background('#ffbf00')"></div>
+    </div>
+
+
+  <script>
+    function change_background(color){
+        document.body.style.backgroundColor = color ;
+    }
+  </script>
+
+</body>
+</html>
